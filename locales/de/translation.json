@@ -3,7 +3,7 @@
     "page0": "Start",
     "page1": "Über mich",
     "page2": "Portfolio",
-    "page3": "Portfolio"
+    "page3": "Diverses"
   },
   "welcome": {
     "title": "Ich bin Lukas Inschlag",
@@ -46,6 +46,14 @@
     "title3": "Mobile Sales App",
     "desc1": "Task Custos war mein Abschlussprojekt im Rahmen meiner Advanced Android Developer (Udacity) Zertifizierung. Hier war das primäre Ziel verschiedenste Technologien, welche für Android verfügbar sind, zu integrieren.\nDas waren etwa: Google Place API (Geofencing), Google AdMob, Room für die Datenpersistenz und diverse Material components.",
     "desc2": "Simple Schedule begann als Projekt um meine Fähigkeiten in JAVA zu Beginn meines Studiums auszubauen. Abgesehen davon hatte ich das Gefühl, dass es keine App gab, die wirklich gut geeignet war meinen Zeitplan für das Studium zu organisieren.\nDurch das Einbeziehen einer Google+ Testgruppe kamen immer mehr Feature-Anfrage. Damit wurde das - zu Beginn sehr einfache Projekt - schnell relativ komplex.\nAufgrund meiner zunehmenden Arbeitsauslastung im Studium musste ich die aktive Entwicklung der App einstellen, aber ich habe in dieser Zeit definitiv viel gelernt.",
-    "desc3": "Für meine Bachelorarbeit habe ich das Thema 'Mobile Vertriebsprozesse' untersucht und wie mobile Applikationen diesen Prozess verbessern können. Gemeinsam mit einem Kollegen habe ich dann eine Android-App entwickelt, um die Möglichkeiten einer solchen Applikation zu testen.\nFür mehr Details habe ich hier meine Bachelorarbeit für interessierte Leser beigefügt."
+    "desc3": "Für meine Bachelorarbeit habe ich das Thema 'Mobile Vertriebsprozesse' untersucht und wie mobile Applikationen diesen Prozess verbessern können. Gemeinsam mit einem Kollegen habe ich dann eine Android-App entwickelt, um die Möglichkeiten einer solchen Applikation zu testen.\nFür mehr Details habe ich hier meine Bachelorarbeit für interessierte Leser beigefügt.",
+    "btn1":"Mehr Informationen",
+    "btn2":"Mehr Informationen",
+    "btn3":"Bachelorarbeit"
+  },
+
+  "misc": {
+    "title1": "Zeichnungen und Grafiken",
+    "desc1": "In meiner Freizeit zeichne ich auch und erstelle Grafiken mit Adobe Photoshop und Illustrator. Hier sind ein paar meiner Werke."
   }
 }

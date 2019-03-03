@@ -35,12 +35,13 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
         <div class="container">
             <a class="navbar-brand font-weight-bold title" href="#">Lukas Inschlag</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav mr-auto smooth-scroll translate">
                     <li class="nav-item">
                         <a class="nav-link title" href="#about" data-offset="90" data-i18n="nav.page1"></a>
@@ -49,7 +50,7 @@
                         <a class="nav-link title" href="#portfolio" data-offset="90" data-i18n="nav.page2"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#services" data-offset="90" data-i18n="nav.page3"></a>
+                        <a class="nav-link title" href="#misc" data-offset="90" data-i18n="nav.page3"></a>
                     </li>
                 </ul>
 
@@ -85,8 +86,6 @@
                             <br>
                             <a class="btn btn-white blue-text font-weight-bold ml-lg-0 wow fadeIn" href="#portfolio"
                                data-wow-delay="0.3s" data-i18n="nav.page2"></a>
-                            <a class="btn white-text font-weight-bold wow fadeIn"
-                               data-wow-delay="0.3s"></a>
                         </div>
                     </div>
 
@@ -237,6 +236,10 @@
                                     <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
                                     <p class="black-text wow fadeIn" data-wow-delay="0.3s"
                                        data-i18n="project.desc1"></p>
+
+                                    <a href="mailto:lukas.inschlag@gmail.com" class="btn-small mt-2"
+                                       role="button" title="TaskCustos" data-i18n="project.btn1">
+                                    </a>
                                 </div>
                             </div>
 
@@ -264,12 +267,15 @@
                                     <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
                                     <p class="black-text wow fadeIn" data-wow-delay="0.3s"
                                        data-i18n="project.desc2"></p>
+
+                                    <a href="mailto:lukas.inschlag@gmail.com" class="btn-small mt-2"
+                                       role="button" title="SimpleSchedule" data-i18n="project.btn2">
+                                    </a>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-
 
                     <div class="container h-100 d-flex justify-content-center align-items-center">
                         <div class="row flex-center mt-3">
@@ -283,6 +289,10 @@
                                     <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
                                     <p class="black-text wow fadeIn" data-wow-delay="0.3s"
                                        data-i18n="project.desc3"></p>
+
+                                    <a href="res/bachelor_thesis.pdf" class="btn-small mt-2"
+                                       role="button" title="Thesis" data-i18n="project.btn3">
+                                    </a>
                                 </div>
                             </div>
 
@@ -295,8 +305,81 @@
             </div>
         </div>
     </section>
+
+    <section class="intro" id="misc">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="py-5">
+
+                    <div class="translate">
+                        <h2 class="title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                            data-wow-delay="0.3s">
+                            <strong data-i18n="nav.page3"></strong>
+                        </h2>
+                        <hr class="hr-short-c">
+                    </div>
+
+                    <div class="container h-100 justify-content-center align-items-center">
+                        <div class="row mt-3">
+                            <div class="black-text translate">
+                                <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    data-wow-delay="0.3s">
+                                    <strong data-i18n="misc.title1"></strong>
+                                </h3>
+                                <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                   data-i18n="misc.desc1"></p>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="gallery" id="gallery">
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="res/drawings/subjects.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/art.png" alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/informatics2.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/got1.png" alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/got2.png" alt="Card image cap">
+                                </div>
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="res/drawings/holiday_spring.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/holiday_fall.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/holiday_winter.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/english.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/french.png" alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/italian.png"
+                                         alt="Card image cap">
+                                </div>
+
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="res/drawings/naruto_1.jpg"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/naruto_2.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="res/drawings/naruto_3.png"
+                                         alt="Card image cap">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
+<footer class="page-footer font-small pt-4">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+        © 2019 Copyright: Lukas Inschlag
+    </div>
+    <!-- Copyright -->
+</footer>
 
 <!-- SCRIPTS -->
 <!-- Bootstrap tooltips -->
