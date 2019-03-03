@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "page0": "Start",
+    "page1": "Über mich",
+    "page2": "Portfolio",
+    "page3": "Portfolio"
+  },
+  "welcome": {
+    "title": "Ich bin Lukas Inschlag",
+    "text": "Du willst mehr über mich und meine Projekte erfahren? Dann bist du hier richtig!"
+  },
+  "about": {
+    "title": "Über mich",
+    "text-1": "Aktuell arbeite ich als Business IT Specialist, wobei hier mein Fokus auf der Betreuung des ERP-Bereichs liegt. Parallel dazu studiere ich derzeit auf der Technischen Universität in Wien das Masterstudium 'Business informatics'.",
+    "text-2": "Ich beschäftige mich außerdem auch mit der Entwicklung von Android Apps, wobei hier vor allem die Projekte 'Simple Schedule' und 'Task Custos' im Vordergrund standen.",
+    "job-title": "Berufliche Laufbahn",
+    "job-title-1": "Business IT Specialist",
+    "job-subtitle-1": "Hirtenberger Holding GmbH / August 2017 - heute",
+    "job-desc-1": "Projektmanagement, internes ERP Consulting, First- und Second-Level Support\nproALPHA, Tisoware, Böhme & Weihs, Jira Service Desk",
+    "job-title-2": "Business IT Support",
+    "job-subtitle-2": "Hirtenberger AG / Jänner 2016 - Juli 2017",
+    "job-desc-2": "First-Level Support im ERP Bereich, Unterstützung bei IT Projekten, Testen von Anpassungen",
+    "job-title-3": "IT Support",
+    "job-subtitle-3": "Hirtenberger AG / Juli 2014 - August 2014",
+    "job-desc-3": "First-Level Support im IT Infrastruktur Bereich, kleine ERP Projekte"
+  },
+  "ex_title": "Andere Erfahrungen",
+  "ex_line1d": "Juni 2018",
+  "ex_line1": "Android app: Task Custos",
+  "ex_line2d": "Jänner - August 2015",
+  "ex_line2": "Android app: Simple Schedule",
+  "ex_line3d": "Juni 2012",
+  "ex_line3": "Sozial Projekt: Caritas Wien (Haus Amadou)",
+
+  "ed_title": "Ausbildung",
+  "ed_line1d": "Oktober 2017 - heute",
+  "ed_line1": "Master Business Informatics, Technischen Universität Wien",
+  "ed_line2d": "September 2013 - September 2017",
+  "ed_line2": "Bachelor Wirtschaftsinformatik, Technischen Universität Wien",
+  "ed_line3d": "September 2005 - Juni 2013",
+  "ed_line3": "AHS Matura: 'Don Bosco Real-, Aufbau- und Aufbaurealgymnasiums' in Unterwaltersdorf, NÖ",
+
+  "project": {
+    "title1": "Task Custos",
+    "title2": "Simple Schedule",
+    "title3": "Mobile Sales App",
+    "desc1": "Task Custos war mein Abschlussprojekt im Rahmen meiner Advanced Android Developer (Udacity) Zertifizierung. Hier war das primäre Ziel verschiedenste Technologien, welche für Android verfügbar sind, zu integrieren.\nDas waren etwa: Google Place API (Geofencing), Google AdMob, Room für die Datenpersistenz und diverse Material components.",
+    "desc2": "Simple Schedule begann als Projekt um meine Fähigkeiten in JAVA zu Beginn meines Studiums auszubauen. Abgesehen davon hatte ich das Gefühl, dass es keine App gab, die wirklich gut geeignet war meinen Zeitplan für das Studium zu organisieren.\nDurch das Einbeziehen einer Google+ Testgruppe kamen immer mehr Feature-Anfrage. Damit wurde das - zu Beginn sehr einfache Projekt - schnell relativ komplex.\nAufgrund meiner zunehmenden Arbeitsauslastung im Studium musste ich die aktive Entwicklung der App einstellen, aber ich habe in dieser Zeit definitiv viel gelernt.",
+    "desc3": "Für meine Bachelorarbeit habe ich das Thema 'Mobile Vertriebsprozesse' untersucht und wie mobile Applikationen diesen Prozess verbessern können. Gemeinsam mit einem Kollegen habe ich dann eine Android-App entwickelt, um die Möglichkeiten einer solchen Applikation zu testen.\nFür mehr Details habe ich hier meine Bachelorarbeit für interessierte Leser beigefügt."
+  }
+}

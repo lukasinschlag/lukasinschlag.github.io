@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- JQuery i18next-->
+    <script type="text/javascript" src="js/i18next.min.js"></script>
+    <script type="text/javascript" src="js/i18next-xhr-backend.js"></script>
+    <script type="text/javascript" src="js/jquery-i18next.min.js"></script>
+</head>
+
+<body>
+
+<img class="img-bg" src="img/png/Web_12.png"/>
+
+<header>
+    <!--
+    Navbar
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold title" href="#">Lukas Inschlag</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto smooth-scroll translate">
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#about" data-offset="90" data-i18n="nav.page1"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#portfolio" data-offset="90" data-i18n="nav.page2"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#services" data-offset="90" data-i18n="nav.page3"></a>
+                    </li>
+                </ul>
+
+                <!-- Language  -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link lang-select text-uppercase" aria-label="de">
+                            de
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lang-select text-uppercase font-weight-bold" aria-label="en">
+                            en
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="view intro">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="row flex-center pt-5 mt-3">
+                    <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+                        <div class="black-text translate">
+                            <h1 class="display-4 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                data-wow-delay="0.3s">
+                                <strong data-i18n="welcome.title"></strong>
+                            </h1>
+                            <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                            <h5 class="black-text wow fadeIn" data-wow-delay="0.3s" data-i18n="welcome.text"></h5>
+                            <br>
+                            <a class="btn btn-white blue-text font-weight-bold ml-lg-0 wow fadeIn" href="#portfolio"
+                               data-wow-delay="0.3s" data-i18n="nav.page2"></a>
+                            <a class="btn white-text font-weight-bold wow fadeIn"
+                               data-wow-delay="0.3s"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                        <img src="img/png/Web_1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section class="intro" id="about">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div id="welcome" class="mt-5 py-5">
+
+                    <div class="white-text translate">
+                        <h2 class="title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                            data-wow-delay="0.3s">
+                            <strong data-i18n="about.title"></strong>
+                        </h2>
+                        <hr class="hr-short">
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 fadeIn">
+                                <!-- image -->
+                                <img class="card-img" src="img/png/Profile_Web.png"
+                                     alt="Card image cap">
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 fadeIn">
+                                <div class="card-body translate py-4">
+                                    <p class="black-text" data-i18n="about.text-1"></p>
+                                    <p class="black-text" data-i18n="about.text-2"></p>
+
+                                    <a href="mailto:lukas.inschlag@gmail.com" class="btn btn-outline-dark icon"
+                                       role="button" title="E-Mail">
+                                        <i class="fas fa-at"></i>
+                                        E-Mail
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/lukas-inschlag"
+                                       class="btn btn-outline-dark icon" role="button" title="LinkedIn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        LinkedIn
+                                    </a>
+                                    <a href="https://www.xing.com/profile/Lukas_Inschlag"
+                                       class="btn btn-outline-dark icon" role="button" title="Xing">
+                                        <i class="fab fa-xing"></i>
+                                        Xing
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck">
+                        <div class="card mb-4">
+                            <div class="card-body translate">
+                                <h4 class="card-title" data-i18n="about.job-title"></h4>
+
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <h5 class="mb-1 font-weight-bold" data-i18n="about.job-title-1"></h5>
+                                        <h6 class="mb-3" data-i18n="about.job-subtitle-1"></h6>
+                                        <p class="mb-1 text-sl" data-i18n="about.job-desc-1"></p>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <h5 class="mb-1 font-weight-bold" data-i18n="about.job-title-2"></h5>
+                                        <h6 class="mb-3" data-i18n="about.job-subtitle-2"></h6>
+                                        <p class="mb-1 text-sl" data-i18n="about.job-desc-2"></p>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <h5 class="mb-1 font-weight-bold" data-i18n="about.job-title-3"></h5>
+                                        <h6 class="mb-3" data-i18n="about.job-subtitle-3"></h6>
+                                        <p class="mb-1 text-sl" data-i18n="about.job-desc-3"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body translate">
+                                <h4 class="card-title" data-i18n="ed_title"></h4>
+                                <div class="list-group mb-4">
+                                    <div class="list-group-item">
+                                        <small data-i18n="ed_line1d"></small>
+                                        <h6 class="mb-1" data-i18n="ed_line1"></h6>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <small data-i18n="ed_line2d"></small>
+                                        <h6 class="mb-1" data-i18n="ed_line2"></h6>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <small data-i18n="ed_line3d"></small>
+                                        <h6 class="mb-1" data-i18n="ed_line3"></h6>
+                                    </div>
+                                </div>
+
+                                <h4 class="card-title" data-i18n="ex_title"></h4>
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <small data-i18n="ex_line1d"></small>
+                                        <h6 class="mb-1" data-i18n="ex_line1"></h6>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <small data-i18n="ex_line2d"></small>
+                                        <h6 class="mb-1" data-i18n="ex_line2"></h6>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <small data-i18n="ex_line3d"></small>
+                                        <h6 class="mb-1" data-i18n="ex_line3"></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro" id="portfolio">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="py-5">
+
+                    <div class="translate">
+                        <h2 class="title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                            data-wow-delay="0.3s">
+                            <strong data-i18n="nav.page2"></strong>
+                        </h2>
+                        <hr class="hr-short-c">
+                    </div>
+
+                    <div class="container h-100 d-flex justify-content-center align-items-center">
+                        <div class="row flex-center mt-3">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+
+                                <div class="black-text translate">
+                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                        data-wow-delay="0.3s">
+                                        <strong data-i18n="project.title1"></strong>
+                                    </h3>
+                                    <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                    <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                       data-i18n="project.desc1"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                                <img src="img/png/taskcustos_web.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container h-100 d-flex justify-content-center align-items-center">
+                        <div class="row flex-center mt-3">
+
+                            <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                                <img src="img/png/simpleschedule_web.png" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+
+                                <div class="black-text translate">
+                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                        data-wow-delay="0.3s">
+                                        <strong data-i18n="project.title2"></strong>
+                                    </h3>
+                                    <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                    <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                       data-i18n="project.desc2"></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="container h-100 d-flex justify-content-center align-items-center">
+                        <div class="row flex-center mt-3">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+
+                                <div class="black-text translate">
+                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                        data-wow-delay="0.3s">
+                                        <strong data-i18n="project.title3"></strong>
+                                    </h3>
+                                    <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                    <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                       data-i18n="project.desc3"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                                <img src="img/png/sales_web.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!-- SCRIPTS -->
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.js"></script>
+<!-- My JS code -->
+<script>
+    //Animation init
+    new WOW().init();
+
+    i18next
+        .use(i18nextXHRBackend)
+        .init({
+            lng: 'en',
+            debug: true,
+            fallbackLng: false,
+            backend: {
+                loadPath: 'locales/{{lng}}/{{ns}}.json'
+            }
+        }, function (err, t) {
+            jqueryI18next.init(i18next, $);
+            $('.translate').localize();
+
+            $('.lang-select').click(function () {
+                $('.lang-select').removeClass('font-weight-bold');
+                $(this).addClass('font-weight-bold');
+                i18next.changeLanguage(this.getAttribute("aria-label"), function () {
+                    $('.translate').localize();
+                });
+            });
+        });
+</script>
+</body>
+
+</html>
