@@ -4,6 +4,11 @@
     "page2": "Portfolio",
     "page3": "Miscellaneous"
   },
+  "nav2": {
+    "page1": "Home",
+    "page2": "Simple Schedule v1",
+    "page3": "Simple Schedule v2"
+  },
   "welcome": {
     "title": "I'm Lukas Inschlag",
     "text": "You want to know more about me and my projects? Then you've come to the right place!"
@@ -56,6 +61,23 @@
   "misc": {
     "title1": "Drawings and graphic works",
     "desc1": "In my spare time I also draw and create graphics with Adobe Photoshop and Illustrator. Here are some of my works."
+  },
+
+  "s1": {
+    "app": "About the app",
+    "desc": "Simple Schedule is an Android app for managing your school or university life. You can save your classes and all tasks, from homework to exams, with ease. By using Material Design it is fitting well into the Android ecosystem and offers an intuitive and familiar way of interaction.",
+    "pt_title": "Project Timetable - Or how it started",
+    "pt_desc1": "The main reason why I started this project was that I simply wasn't happy with the apps available at that moment. I just wanted an clean, simple but nice looking app that could help me manage my university schedule. Just right after this desire came to my mind I started drawing some elements I would like to see - especially some Material elements, which where just introduced at that time. This resulted in this first sketch, which you can see here and that's where it all started.",
+    "pt_desc2": "The first idea regarding this project was the 'Recent' section. Since this app was all about simplicity and being able to quickly get an overview over ones schedule.",
+    "rs_title": "The 'Recent' section",
+    "rs_desc1": "Since I knew from the beginning that this section would be the part that makes this app special (compared to normal calendars eg.) I quickly decided that this should also be the main view. There are many reasons that support this decision which I will come shortly to but first: ",
+    "rs_desc1a": "Lets talk about Material Design!",
+    "rs_desc2": "This part of the app is actually a great place to emphasize many ideas of Material Design. Since it is the main interaction part of the app, its also much about interaction. Talking about used elements: Since this screen is all about dynamic information and changing content, the card view came in pretty handy.",
+    "rs_desc2a": "This is because cards both are great to resemble Material's Paper metaphor but also to show varying content. So cards are nice for showing grouped content but also for single objects/information, but the thing that makes them great is the combination with actions.",
+    "c_title": "Cards",
+    "c_desc1": "So cards are good for showing grouped content but also for single information. Lets explore this with the recent cards. Basically there are two types used. The first one is a rich media card used to show the current class. Since this is a main interaction point and the most important element it utilizes the classes bold colors to draw attention to it. It has multiple action areas, as shown in the illustration. There is a part to interact with the class - to open a more detailed view of the class. Furthermore there is navigation area - to navigate to the next class but also a support action.",
+    "c_desc2": "As simple as the concept of a card looks, it is important to clearly structure it. Action elements, like buttons, should be clearly visible and have its one space. With using rich media it is also possible to separate the content from the actions, but it is also used as an interaction point itself.",
+    "c_desc3": "The second card is more subtile as it isn't a main interaction point and only shows further information. Therefore it only uses gray tones. The lines clearly separate the items (classes) and these also serve as interaction point to find more detailed information."
   }
 
 }
