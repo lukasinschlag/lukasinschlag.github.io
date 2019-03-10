@@ -9,6 +9,9 @@
     "page2": "Simple Schedule v1",
     "page3": "Simple Schedule v2"
   },
+  "nav3": {
+    "page1": "Home"
+  },
   "welcome": {
     "title": "I'm Lukas Inschlag",
     "text": "You want to know more about me and my projects? Then you've come to the right place!"
@@ -80,6 +83,11 @@
     "c_desc3": "The second card is more subtile as it isn't a main interaction point and only shows further information. Therefore it only uses gray tones. The lines clearly separate the items (classes) and these also serve as interaction point to find more detailed information.",
     "sc_title": "Screenshots",
     "sc_desc": "Here some screenshots of the app can be seen."
+ },
+
+  "t": {
+    "desc": "Custos, which is latin for watcher or keeper, means that Task Custos will keep track of all tasks of the user, focused on their place of relevance. By using the the users location it will show prominently the open tasks for this particular place. This allows the user not to worry about forgetting about a task, that is relevant at a certain location (like at work, at home or school). Furthermore, it will show these tasks in a widget on the users homescreen. In addition to that, all tasks can also be viewed in chronological order in a seperate screen.",
+    "p-desc1": "Task Custos came into exsitence as my final project in the certification process for my Udacity Advanced Android Developer Nanodegree. The idea was to utilize many of the lessons learned and further extending my experience with APIs like Googles Place API."
   }
 
 }
