@@ -77,7 +77,9 @@
     "c_title": "Cards",
     "c_desc1": "So cards are good for showing grouped content but also for single information. Lets explore this with the recent cards. Basically there are two types used. The first one is a rich media card used to show the current class. Since this is a main interaction point and the most important element it utilizes the classes bold colors to draw attention to it. It has multiple action areas, as shown in the illustration. There is a part to interact with the class - to open a more detailed view of the class. Furthermore there is navigation area - to navigate to the next class but also a support action.",
     "c_desc2": "As simple as the concept of a card looks, it is important to clearly structure it. Action elements, like buttons, should be clearly visible and have its one space. With using rich media it is also possible to separate the content from the actions, but it is also used as an interaction point itself.",
-    "c_desc3": "The second card is more subtile as it isn't a main interaction point and only shows further information. Therefore it only uses gray tones. The lines clearly separate the items (classes) and these also serve as interaction point to find more detailed information."
+    "c_desc3": "The second card is more subtile as it isn't a main interaction point and only shows further information. Therefore it only uses gray tones. The lines clearly separate the items (classes) and these also serve as interaction point to find more detailed information.",
+    "sc_title": "Screenshots",
+    "sc_desc": "Here some screenshots of the app can be seen."
   }
 
 }
