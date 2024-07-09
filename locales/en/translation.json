@@ -1,7 +1,7 @@
 {
   "nav": {
-    "page1": "About me",
-    "page2": "Portfolio",
+    "page1": "About my work",
+    "page2": "Private Portfolio",
     "page3": "Miscellaneous"
   },
   "nav2": {
@@ -18,19 +18,26 @@
   },
 
   "about": {
-    "title": "About me",
-    "text-1": "I am currently working as a Business IT Specialist, where my focus is on the ERP area. At the same time, I am currently studying for a Master's degree in Business Informatics at the Vienna University of Technology.",
-    "text-2": "I am also involved in the development of Android Apps, where the projects 'Simple Schedule' and 'Task Custos' were my main projects.",
-    "job-title": "Professional career",
-    "job-title-1": "Business IT Specialist",
-    "job-subtitle-1": "Hirtenberger Holding GmbH / August 2017 - today",
-    "job-desc-1": "Project Management, Internal ERP Consulting, First- and Second-Level Support\nproALPHA, Tisoware, Böhme & Weihs, Jira Service Desk",
-    "job-title-2": "Business IT Support",
-    "job-subtitle-2": "Hirtenberger AG / January 2016 - July 2017",
-    "job-desc-2": "First-level support in the ERP area, support for IT projects, testing of adaptations",
-    "job-title-3": "IT Support",
-    "job-subtitle-3": "Hirtenberger AG / July 2014 - August 2014",
-    "job-desc-3": "first-level support in the IT infrastructure area, small ERP projects"
+    "title": "Successfully ",
+    "title-1": "plan, implement and manage",
+    "title-2": " ERP projects.",
+    "text-1": "With comprehensive expertise and a practical approach, I support companies in their ERP projects.",
+    "text-2": "",
+    "service": "Your ",
+    "service-0": "independent partner",
+    "service-1": " specialising on ",
+    "service-2": "proALPHA",
+    "service-3": " ERP.",
+    "sd-1": "Flexibel",
+    "sd-2": "Transparent",
+    "sdt-1": "Als unabhängiger Partner biete ich flexible Lösungen für Ihr Unternehmen. Dank meiner Unabhängigkeit kann ich maßgeschneiderte Ansätze entwickeln, die genau auf Ihre Bedürfnisse abgestimmt sind. Ob Implementierung, Migration oder Update – ich passe meine Strategien flexibel an, um Sie bei der Optimierung Ihre Geschäftsprozesse zu unterstützen.",
+    "sdt-2": "Ich lege großen Wert auf Transparenz in jedem Schritt des ERP-Projekts. Ich halte Sie stets informiert und biete klare, nachvollziehbare Lösungen, damit Sie jederzeit den Überblick behalten. Durch offene Kommunikation und transparente Prozesse sorge ich dafür, dass Sie fundierte Entscheidungen treffen können.",
+    "erp-title-1": "New Implementations",
+    "erp-title-2": "Migrations",
+    "erp-title-3": "Updates",
+    "erp-desc-1": "I support your company from the initial analysis to a successful go-live and beyond, ensuring that proALPHA is optimally integrated into your business processes.",
+    "erp-desc-2": "Whether from another ERP system or an older version of proALPHA, I ensure that your data is transferred smoothly and securely to the new platform.",
+    "erp-desc-3": "I support your update projects to ensure that you benefit from the latest features and improvements."
   },
 
   "ex_title": "Other experiences",

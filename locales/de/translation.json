@@ -1,8 +1,7 @@
 {
   "nav": {
-    "page0": "Start",
-    "page1": "Über mich",
-    "page2": "Portfolio",
+    "page1": "Über meine Arbeit",
+    "page2": "Privates Portfolio",
     "page3": "Diverses"
   },
   "welcome": {
@@ -10,19 +9,28 @@
     "text": "Du willst mehr über mich und meine Projekte erfahren? Dann bist du hier richtig!"
   },
   "about": {
-    "title": "Über mich",
-    "text-1": "Aktuell arbeite ich als Business IT Specialist, wobei hier mein Fokus auf der Betreuung des ERP-Bereichs liegt. Parallel dazu studiere ich derzeit auf der Technischen Universität in Wien das Masterstudium 'Business informatics'.",
-    "text-2": "Ich beschäftige mich außerdem auch mit der Entwicklung von Android Apps, wobei hier vor allem die Projekte 'Simple Schedule' und 'Task Custos' im Vordergrund standen.",
-    "job-title": "Berufliche Laufbahn",
-    "job-title-1": "Business IT Specialist",
-    "job-subtitle-1": "Hirtenberger Holding GmbH / August 2017 - heute",
-    "job-desc-1": "Projektmanagement, internes ERP Consulting, First- und Second-Level Support\nproALPHA, Tisoware, Böhme & Weihs, Jira Service Desk",
-    "job-title-2": "Business IT Support",
-    "job-subtitle-2": "Hirtenberger AG / Jänner 2016 - Juli 2017",
-    "job-desc-2": "First-Level Support im ERP Bereich, Unterstützung bei IT Projekten, Testen von Anpassungen",
-    "job-title-3": "IT Support",
-    "job-subtitle-3": "Hirtenberger AG / Juli 2014 - August 2014",
-    "job-desc-3": "First-Level Support im IT Infrastruktur Bereich, kleine ERP Projekte"
+    "title": "Erfolgreiche ",
+    "title-1": "Planung, Umsetzung und Steuerung",
+    "title-2": " von ERP-Projekten.",
+    "text-1": "Mit umfassendem Know-how und praxisorientiertem Ansatz unterstütze ich Unternehmen bei ihren Projekten im ERP Umfeld. ",
+    "text-2": "",
+    "bak-1": "Als erfahrener ERP-Projektmanager spezialisiere ich mich auf die Planung und Durchführung von Projekten rund um das ERP-System proALPHA. Mit umfassendem Know-how und einem praxisorientierten Ansatz unterstütze ich Unternehmen bei der erfolgreichen Implementierung, Migration und Aktualisierung ihrer ERP-Lösungen.",
+    "bak-2": "Zusätzlich stehe ich Ihnen auch bei spezifischen Projekten im Logistikbereich sowie bei ERP-nahen Projekten zur Seite, um gezielt Abläufe zu optimieren und Ihre Geschäftsprozesse zu digitalisieren.",
+    "service": "Ihr ",
+    "service-0": "unabhängiger Partner",
+    "service-1": " mit Spezialisierung auf ",
+    "service-2": "proALPHA",
+    "service-3": " ERP.",
+    "sd-1": "Flexibel",
+    "sd-2": "Transparent",
+    "sdt-1": "Als unabhängiger Partner biete ich flexible Lösungen für Ihr Unternehmen. Dank meiner Unabhängigkeit kann ich maßgeschneiderte Ansätze entwickeln, die genau auf Ihre Bedürfnisse abgestimmt sind. Ob Implementierung, Migration oder Update – ich passe meine Strategien flexibel an, um Sie bei der Optimierung Ihre Geschäftsprozesse zu unterstützen.",
+    "sdt-2": "Ich lege großen Wert auf Transparenz in jedem Schritt des ERP-Projekts. Ich halte Sie stets informiert und biete klare, nachvollziehbare Lösungen, damit Sie jederzeit den Überblick behalten. Durch offene Kommunikation und transparente Prozesse sorge ich dafür, dass Sie fundierte Entscheidungen treffen können.",
+    "erp-title-1": "Neuimplementierungen",
+    "erp-title-2": "Migrationen",
+    "erp-title-3": "Updates",
+    "erp-desc-1": "Ich begleite Ihr Unternehmen von der ersten Analyse bis zum erfolgreichen Go-Live und darüber hinaus, um sicherzustellen, dass proALPHA optimal in Ihre Geschäftsprozesse integriert wird.",
+    "erp-desc-2": "Ob von einem anderen ERP-System oder einer älteren Version von proALPHA – ich stelle sicher, dass Ihre Daten reibungslos und sicher auf die neue Plattform übertragen werden.",
+    "erp-desc-3": "Ich begleite Ihre Updateprojekte, um sicherzustellen, dass Sie von den neuesten Funktionen und Verbesserungen profitieren."
   },
   "ex_title": "Andere Erfahrungen",
   "ex_line1d": "Juni 2018",

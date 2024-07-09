@@ -8,9 +8,22 @@ body {
 
 html,
 body,
-header,
 .intro {
     height: 100%;
+}
+
+view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.bg-color-main1 {
+    background: #F3F6EA;
+}
+
+.w-35 {
+    width: 35%!important;
 }
 
 @media (max-width: 740px) {
@@ -27,6 +40,10 @@ header,
     .view {
         margin-top: 48px;
     }
+
+    .w-50{
+        width:100%!important
+    }
 }
 
 @media (min-width: 740px) and (max-width: 850px) {
@@ -39,6 +56,9 @@ header,
 
     .white-text .hr-short {
         border-top: 3px solid #1513C8;
+    }
+    .w-50{
+        width:80%!important
     }
 }
 
@@ -61,11 +81,17 @@ header,
 }
 
 .hr-short-c {
-    border-top: 3px solid #1513C8;
+    border-top: 3px solid white;
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
     margin-right: 90%;
+    opacity: .75;
 }
+
+.highlight {
+    background: linear-gradient(to bottom, transparent 60%, #C5E86C 75%);
+}
+
 
 .icon {
     display: inline-block;
@@ -84,6 +110,22 @@ header,
     -ms-user-select: none;
     user-select: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card {
+    border-radius: unset;
+}
+
+.card-icon {
+    display: inline-block;
+    width: 5rem;
+    height: auto;
+    padding: 0.35rem 0.75rem 0.75rem 0.75rem;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .icon:hover {
@@ -162,4 +204,14 @@ footer.page-footer .footer-copyright {
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: white;
+    font-weight: 300;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
 }
