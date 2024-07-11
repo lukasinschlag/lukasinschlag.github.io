@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom_bootstrap.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -20,6 +20,13 @@
     <script type="text/javascript" src="js/i18next.min.js"></script>
     <script type="text/javascript" src="js/i18next-xhr-backend.js"></script>
     <script type="text/javascript" src="js/jquery-i18next.min.js"></script>
+
+    <!-- WOW animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        //Animation init
+        new WOW().init();
+    </script>
 </head>
 
 <body>
@@ -241,9 +248,6 @@
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 <!-- My JS code -->
 <script>
-    //Animation init
-    new WOW().init();
-
     i18next
         .use(i18nextXHRBackend)
         .init({

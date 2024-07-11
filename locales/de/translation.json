@@ -4,6 +4,9 @@
     "page2": "Privates Portfolio",
     "page3": "Diverses"
   },
+  "nav2": {
+    "page1": "Start"
+  },
   "welcome": {
     "title": "Ich bin Lukas Inschlag",
     "text": "Du willst mehr über mich und meine Projekte erfahren? Dann bist du hier richtig!"
@@ -24,29 +27,25 @@
     "sd-1": "Flexibel",
     "sd-2": "Transparent",
     "sdt-1": "Als unabhängiger Partner biete ich flexible Lösungen für Ihr Unternehmen. Dank meiner Unabhängigkeit kann ich maßgeschneiderte Ansätze entwickeln, die genau auf Ihre Bedürfnisse abgestimmt sind. Ob Implementierung, Migration oder Update – ich passe meine Strategien flexibel an, um Sie bei der Optimierung Ihre Geschäftsprozesse zu unterstützen.",
-    "sdt-2": "Ich lege großen Wert auf Transparenz in jedem Schritt des ERP-Projekts. Ich halte Sie stets informiert und biete klare, nachvollziehbare Lösungen, damit Sie jederzeit den Überblick behalten. Durch offene Kommunikation und transparente Prozesse sorge ich dafür, dass Sie fundierte Entscheidungen treffen können.",
-    "erp-title-1": "Neuimplementierungen",
-    "erp-title-2": "Migrationen",
-    "erp-title-3": "Updates",
-    "erp-desc-1": "Ich begleite Ihr Unternehmen von der ersten Analyse bis zum erfolgreichen Go-Live und darüber hinaus, um sicherzustellen, dass proALPHA optimal in Ihre Geschäftsprozesse integriert wird.",
-    "erp-desc-2": "Ob von einem anderen ERP-System oder einer älteren Version von proALPHA – ich stelle sicher, dass Ihre Daten reibungslos und sicher auf die neue Plattform übertragen werden.",
-    "erp-desc-3": "Ich begleite Ihre Updateprojekte, um sicherzustellen, dass Sie von den neuesten Funktionen und Verbesserungen profitieren."
-  },
-  "ex_title": "Andere Erfahrungen",
-  "ex_line1d": "Juni 2018",
-  "ex_line1": "Android app: Task Custos",
-  "ex_line2d": "Jänner - August 2015",
-  "ex_line2": "Android app: Simple Schedule",
-  "ex_line3d": "Juni 2012",
-  "ex_line3": "Sozial Projekt: Caritas Wien (Haus Amadou)",
+    "sdt-2": "Ich lege großen Wert auf Transparenz in jedem Schritt des ERP-Projekts. Ich halte Sie stets informiert und biete klare, nachvollziehbare Lösungen, damit Sie jederzeit den Überblick behalten. Durch offene Kommunikation und transparente Prozesse sorge ich dafür, dass Sie fundierte Entscheidungen treffen können."
+    },
 
-  "ed_title": "Ausbildung",
-  "ed_line1d": "Oktober 2017 - heute",
-  "ed_line1": "Master Business Informatics, Technischen Universität Wien",
-  "ed_line2d": "September 2013 - September 2017",
-  "ed_line2": "Bachelor Wirtschaftsinformatik, Technischen Universität Wien",
-  "ed_line3d": "September 2005 - Juni 2013",
-  "ed_line3": "AHS Matura: 'Don Bosco Real-, Aufbau- und Aufbaurealgymnasiums' in Unterwaltersdorf, NÖ",
+  "erp": {
+    "head-1": "Projektmanagement",
+    "head-2": "Technischer Support",
+    "title-1": "Neuimplementierungen",
+    "title-2": "Migrationen",
+    "title-3": "Updates",
+    "title-4": "Daten & Auswertungen",
+    "title-5": "Benutzer & Berechtigungen",
+    "title-6": "Konfigurationen",
+    "desc-1": "Ich begleite Ihr Unternehmen von der ersten Analyse bis zum erfolgreichen Go-Live und darüber hinaus, um sicherzustellen, dass proALPHA optimal in Ihre Geschäftsprozesse integriert wird.",
+    "desc-2": "Ob von einem anderen ERP-System oder einer älteren Version von proALPHA – ich stelle sicher, dass Ihre Daten reibungslos und sicher auf die neue Plattform übertragen werden.",
+    "desc-3": "Ich begleite Ihre Updateprojekte, um sicherzustellen, dass Sie von den neuesten Funktionen und Verbesserungen profitieren.",
+    "desc-4": "Wenn Sie Daten auswerten, pflegen oder exportieren wollen, ist fundiertes Wissen zu den Datenbankstrukturen und Möglichkeiten notwendig. Dies umfasst etwa frei definierbare Datenexporte, den Migrationsmanager oder die INWB Replikation.",
+    "desc-5": "Sie benötigen Unterstützung bei der Verwaltung der Benutzer oder dem Berechtigungskonzept, hier können Sie auf meine Expertise zählen.",
+    "desc-6": "Je nach Ihren Anforderungen übernehme ich die Einstellung der ACMs, Queues, Jobs, EDI oder INWB Schnittstelle, sowie die Konfiguration von Workflows oder auch dem Belegversand. "
+  },
 
   "project": {
     "title1": "Task Custos",
@@ -63,5 +62,28 @@
   "misc": {
     "title1": "Zeichnungen und Grafiken",
     "desc1": "In meiner Freizeit zeichne ich auch und erstelle Grafiken mit Adobe Photoshop und Illustrator. Hier sind ein paar meiner Werke."
+  },
+  "s1": {
+    "app": "About the app",
+    "desc": "Simple Schedule is an Android app for managing your school or university life. You can save your classes and all tasks, from homework to exams, with ease. By using Material Design it is fitting well into the Android ecosystem and offers an intuitive and familiar way of interaction.",
+    "pt_title": "Project Timetable - Or how it started",
+    "pt_desc1": "The main reason why I started this project was that I simply wasn't happy with the apps available at that moment. I just wanted an clean, simple but nice looking app that could help me manage my university schedule. Just right after this desire came to my mind I started drawing some elements I would like to see - especially some Material elements, which where just introduced at that time. This resulted in this first sketch, which you can see here and that's where it all started.",
+    "pt_desc2": "The first idea regarding this project was the 'Recent' section. Since this app was all about simplicity and being able to quickly get an overview over ones schedule.",
+    "rs_title": "The 'Recent' section",
+    "rs_desc1": "Since I knew from the beginning that this section would be the part that makes this app special (compared to normal calendars eg.) I quickly decided that this should also be the main view. There are many reasons that support this decision which I will come shortly to but first: ",
+    "rs_desc1a": "Lets talk about Material Design!",
+    "rs_desc2": "This part of the app is actually a great place to emphasize many ideas of Material Design. Since it is the main interaction part of the app, its also much about interaction. Talking about used elements: Since this screen is all about dynamic information and changing content, the card view came in pretty handy.",
+    "rs_desc2a": "This is because cards both are great to resemble Material's Paper metaphor but also to show varying content. So cards are nice for showing grouped content but also for single objects/information, but the thing that makes them great is the combination with actions.",
+    "c_title": "Cards",
+    "c_desc1": "So cards are good for showing grouped content but also for single information. Lets explore this with the recent cards. Basically there are two types used. The first one is a rich media card used to show the current class. Since this is a main interaction point and the most important element it utilizes the classes bold colors to draw attention to it. It has multiple action areas, as shown in the illustration. There is a part to interact with the class - to open a more detailed view of the class. Furthermore there is navigation area - to navigate to the next class but also a support action.",
+    "c_desc2": "As simple as the concept of a card looks, it is important to clearly structure it. Action elements, like buttons, should be clearly visible and have its one space. With using rich media it is also possible to separate the content from the actions, but it is also used as an interaction point itself.",
+    "c_desc3": "The second card is more subtile as it isn't a main interaction point and only shows further information. Therefore it only uses gray tones. The lines clearly separate the items (classes) and these also serve as interaction point to find more detailed information.",
+    "sc_title": "Screenshots",
+    "sc_desc": "Here some screenshots of the app can be seen."
+  },
+
+  "t": {
+    "desc": "Custos, which is latin for watcher or keeper, means that Task Custos will keep track of all tasks of the user, focused on their place of relevance. By using the the users location it will show prominently the open tasks for this particular place. This allows the user not to worry about forgetting about a task, that is relevant at a certain location (like at work, at home or school). Furthermore, it will show these tasks in a widget on the users homescreen. In addition to that, all tasks can also be viewed in chronological order in a seperate screen.",
+    "p-desc1": "Task Custos came into exsitence as my final project in the certification process for my Udacity Advanced Android Developer Nanodegree. The idea was to utilize many of the lessons learned and further extending my experience with APIs like Googles Place API."
   }
 }

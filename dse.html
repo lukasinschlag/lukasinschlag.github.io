@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom_bootstrap.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -20,6 +20,13 @@
     <script type="text/javascript" src="js/i18next.min.js"></script>
     <script type="text/javascript" src="js/i18next-xhr-backend.js"></script>
     <script type="text/javascript" src="js/jquery-i18next.min.js"></script>
+
+    <!-- WOW animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        //Animation init
+        new WOW().init();
+    </script>
 </head>
 
 <body>
@@ -28,17 +35,17 @@
     <!--
     Navbar
     -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
             <a class="navbar-brand font-weight-bold title" href="#">Datenschutzerklärung</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                     aria-controls="navbarToggler"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mr-auto smooth-scroll translate">
+                <ul class="nav navbar-nav mr-auto smooth-scroll translate">
                     <li class="nav-item">
                         <a class="nav-link title" href="index.html" data-offset="90" data-i18n="nav2.page1"></a>
                     </li>
@@ -307,8 +314,9 @@ Die Google Cloud-Dienste werden von Google Irland Limited angeboten. Soweit eine
 
 <footer class="page-footer font-small pt-4">
     <!-- Copyright -->
+    <a href="https://www.flaticon.com/free-icons/migration" title="migration icons">Migration icons created by Eucalyp</a>
     <div class="footer-copyright text-center py-3">
-        © 2019 Copyright: Lukas Inschlag
+        © 2024 Copyright: Lukas Inschlag
     </div>
     <!-- Copyright -->
 </footer>
@@ -318,12 +326,10 @@ Die Google Cloud-Dienste werden von Google Irland Limited angeboten. Soweit eine
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 <!-- My JS code -->
 <script>
-    //Animation init
-    new WOW().init();
     i18next
         .use(i18nextXHRBackend)
         .init({
-            lng: 'en',
+            lng: 'de',
             debug: true,
             fallbackLng: false,
             backend: {
