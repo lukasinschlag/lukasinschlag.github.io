@@ -57,11 +57,40 @@
 
 <main>
     <section class="intro mt-5">
+        <div class="container" style="display: none">
+            <h1>Kontaktformular</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ihr Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail-Adresse</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail-Adresse">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Betreff</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Betreff">
+                </div>
+                <div class="form-group">
+                    <label for="message">Nachricht</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Ihre Nachricht"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Absenden</button>
+            </form>
+        </div>
         <div class="mask">
             <div class="container h-100 d-flex justify-content-center align-items-center">
                 <div class="py-5">
+                    <h2>Impressum</h2>
+                    <p>Informationspflicht laut §5 ECG, §63 GewO und Offenlegungspflicht laut §25 Mediengesetz.</p>
+                    <p><span>Lukas Inschlag<br>
+                        Mitterweg 29 2/1, 2486 Pottendorf, Österreich<br>
+                        E-Mail: simpleschedule.ins@gmail.com<br>
+                        Link: https://lukasinschlag.github.io/<br>
+                    </span></p>
                     <h2>Datenschutzerklärung</h2>
-                    <h3 id="dsg-general-intro"></h3>
+                    <h4 id="dsg-general-intro"></h4>
                     <p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von
                         personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen der Erbringung unserer Leistungen
                         sowie innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und
@@ -71,30 +100,29 @@
                         Datenschutzgrundverordnung (DSGVO). <br>
                         <br>
                     </p>
-                    <h3 id="dsg-general-controller">Verantwortlicher</h3>
+                    <h4 id="dsg-general-controller">Verantwortlicher</h4>
                     <p><span class="tsmcontroller">Lukas Inschlag<br>
-Im Schulgarten 28<br>
-2483, Weigelsdorf, Österreich<br>
-E-Mail: simpleschedule.ins@gmail.com<br>
-Link: https://lukasinschlag.github.io/simpleschedule.html<br>
-</span></p>
-                    <h3 id="dsg-general-datatype">Arten der verarbeiteten Daten</h3>
+                        Mitterweg 29, 2486 Pottendorf, Österreich<br>
+                        E-Mail: simpleschedule.ins@gmail.com<br>
+                        Link: https://lukasinschlag.github.io/<br>
+                    </span></p>
+                    <h4 id="dsg-general-datatype">Arten der verarbeiteten Daten</h4>
                     <p>- Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br>
                         - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
                         - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
                         - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
                         - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).</p>
-                    <h3 id="dsg-general-datasubjects">Kategorien betroffener Personen</h3>
+                    <h4 id="dsg-general-datasubjects">Kategorien betroffener Personen</h4>
                     <p>Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen
                         zusammenfassend auch als „Nutzer“).<br>
                     </p>
-                    <h3 id="dsg-general-purpose">Zweck der Verarbeitung</h3>
+                    <h4 id="dsg-general-purpose">Zweck der Verarbeitung</h4>
                     <p>- Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.<br>
                         - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br>
                         - Sicherheitsmaßnahmen.<br>
                         - Reichweitenmessung/Marketing<br>
                         <span class="tsmcom"></span></p>
-                    <h3 id="dsg-general-terms">Verwendete Begrifflichkeiten </h3>
+                    <h4 id="dsg-general-terms">Verwendete Begrifflichkeiten </h4>
                     <p>„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder
                         identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als
                         identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere
@@ -129,7 +157,7 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         „Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde, Einrichtung oder andere
                         Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.<br>
                     </p>
-                    <h3 id="dsg-general-legalbasis">Maßgebliche Rechtsgrundlagen</h3>
+                    <h4 id="dsg-general-legalbasis">Maßgebliche Rechtsgrundlagen</h4>
                     <p>Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen
                         mit. Für Nutzer aus dem Geltungsbereich der Datenschutzgrundverordnung (DSGVO), d.h. der EU und
                         des EWG gilt, sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird,
@@ -153,7 +181,7 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         Die Verarbeitung von besonderen Kategorien von Daten (entsprechend Art. 9 Abs. 1 DSGVO) bestimmt
                         sich nach den Vorgaben des Art. 9 Abs. 2 DSGVO. <br>
                     </p>
-                    <h3 id="dsg-general-securitymeasures">Sicherheitsmaßnahmen</h3>
+                    <h4 id="dsg-general-securitymeasures">Sicherheitsmaßnahmen</h4>
                     <p>Wir treffen nach Maßgabe der gesetzlichen Vorgabenunter Berücksichtigung des Stands der Technik,
                         der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der
                         Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für
@@ -169,8 +197,8 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         Auswahl von Hardware, Software sowie Verfahren, entsprechend dem Prinzip des Datenschutzes durch
                         Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.<br>
                     </p>
-                    <h3 id="dsg-general-coprocessing">Zusammenarbeit mit Auftragsverarbeitern, gemeinsam
-                        Verantwortlichen und Dritten</h3>
+                    <h4 id="dsg-general-coprocessing">Zusammenarbeit mit Auftragsverarbeitern, gemeinsam
+                        Verantwortlichen und Dritten</h4>
                     <p>Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen
                         (Auftragsverarbeitern, gemeinsam Verantwortlichen oder Dritten) offenbaren, sie an diese
                         übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage
@@ -184,7 +212,7 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         berechtigtes Interesse und darüberhinausgehend auf einer den gesetzlichen Vorgaben
                         entsprechenden Grundlage. <br>
                     </p>
-                    <h3 id="dsg-general-thirdparty">Übermittlungen in Drittländer</h3>
+                    <h4 id="dsg-general-thirdparty">Übermittlungen in Drittländer</h4>
                     <p>Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU), des Europäischen
                         Wirtschaftsraums (EWR) oder der Schweizer Eidgenossenschaft) verarbeiten oder dies im Rahmen der
                         Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an andere
@@ -199,7 +227,7 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         Datenschutzvorschriften verarbeiten (Art. 44 bis 49 DSGVO, <a
                                 href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu_de"
                                 target="blank">Informationsseite der EU-Kommission</a>).</p>
-                    <h3 id="dsg-general-rightssubject">Rechte der betroffenen Personen</h3>
+                    <h4 id="dsg-general-rightssubject">Rechte der betroffenen Personen</h4>
                     <p>Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet
                         werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten
                         entsprechend den gesetzlichen Vorgaben.<br>
@@ -219,13 +247,13 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         Sie haben ferner nach Maßgabe der gesetzlichen Vorgaben das Recht, eine Beschwerde bei der
                         zuständigen Aufsichtsbehörde einzureichen.<br>
                     </p>
-                    <h3 id="dsg-general-revokeconsent">Widerrufsrecht</h3>
+                    <h4 id="dsg-general-revokeconsent">Widerrufsrecht</h4>
                     <p>Sie haben das Recht, erteilte Einwilligungen mit Wirkung für die Zukunft zu widerrufen.</p>
-                    <h3 id="dsg-general-object">Widerspruchsrecht</h3>
+                    <h4 id="dsg-general-object">Widerspruchsrecht</h4>
                     <p><strong>Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe der
                         gesetzlichen Vorgaben jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die
                         Verarbeitung für Zwecke der Direktwerbung erfolgen.</strong></p>
-                    <h3 id="dsg-general-cookies">Cookies und Widerspruchsrecht bei Direktwerbung</h3>
+                    <h4 id="dsg-general-cookies">Cookies und Widerspruchsrecht bei Direktwerbung</h4>
                     <p>Als „Cookies“ werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden.
                         Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient
                         primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist)
@@ -268,7 +296,7 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den
                         Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht
                         alle Funktionen dieses Onlineangebotes genutzt werden können.</p>
-                    <h3 id="dsg-general-erasure">Löschung von Daten</h3>
+                    <h4 id="dsg-general-erasure">Löschung von Daten</h4>
                     <p>Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht oder in
                         ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung
                         ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre
@@ -279,14 +307,14 @@ Link: https://lukasinschlag.github.io/simpleschedule.html<br>
                         erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und
                         nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder
                         steuerrechtlichen Gründen aufbewahrt werden müssen.</p>
-                    <h3 id="dsg-general-changes">Änderungen und Aktualisierungen der Datenschutzerklärung</h3>
+                    <h4 id="dsg-general-changes">Änderungen und Aktualisierungen der Datenschutzerklärung</h4>
                     <p>Wir bitten Sie sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir
                         passen die Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten
                         Datenverarbeitungen dies erforderlich machen. Wir informieren Sie, sobald durch die Änderungen
                         eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder eine sonstige individuelle
                         Benachrichtigung erforderlich wird.</p>
                     <p></p>
-                    <h3 id="dsg-google-cloud">Google&nbsp;Cloud-Dienste</h3>
+                    <h4 id="dsg-google-cloud">Google&nbsp;Cloud-Dienste</h4>
                     <p></p>
                     <p><span class="ts-muster-content">Wir nutzen die von Google angebotene Cloud und die Cloud-Softwaredienste (sog. Software as a Service, z.B. Google Suite) für die folgenden Zwecke: Dokumentenspeicherung und Verwaltung, Kalenderverwaltung, E-Mail-Versand, Tabellenkalkulationen und Präsentationen, Austausch von Dokumenten, Inhalten und Informationen mit bestimmten Empfängern oder Veröffentlichung von Webseiten, Formularen oder sonstigen Inhalten und Informationen sowie Chats und Teilnahme an Audio- und Videokonferenzen.<br>
 <br>
@@ -314,7 +342,8 @@ Die Google Cloud-Dienste werden von Google Irland Limited angeboten. Soweit eine
 
 <footer class="page-footer font-small pt-4">
     <!-- Copyright -->
-    <a href="https://www.flaticon.com/free-icons/migration" title="migration icons">Migration icons created by Eucalyp</a>
+    <a href="https://www.flaticon.com/free-icons/migration" title="migration icons">Migration icons created by
+        Eucalyp</a>
     <div class="footer-copyright text-center py-3">
         © 2024 Copyright: Lukas Inschlag
     </div>

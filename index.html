@@ -49,13 +49,10 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                 <ul class="nav navbar-nav mr-auto smooth-scroll translate">
                     <li class="nav-item">
-                        <a class="nav-link title" href="#service" data-offset="90" data-i18n="nav.page1"></a>
+                        <a class="nav-link title" href="#erp" data-offset="90" data-i18n="nav.page1"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link title" href="#portfolio" data-offset="90" data-i18n="nav.page2"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link title" href="#misc" data-offset="90" data-i18n="nav.page3"></a>
                     </li>
                 </ul>
 
@@ -72,12 +69,17 @@
                         </a>
                     </li>
                 </ul> -->
-                <div class="navbar-nav btn-group" role="group" aria-label="Language toggle group">
-                    <input type="radio" class="btn-check lang-select" name="btnradio" id="lang1" autocomplete="off" checked aria-label="de">
-                    <label class="btn btn-outline-primary" for="lang1">DE</label>
+                <div class="hstack gap-3">
+                    <a href="mailto:contact.lukas.inschlag@gmail.com" class="btn btn-primary icon translate"
+                       role="button" title="E-Mail" data-i18n="nav.contact">
+                    </a>
+                    <div class="navbar-nav btn-group" role="group" aria-label="Language toggle group">
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang1" autocomplete="off" checked aria-label="de">
+                        <label class="btn btn-outline-primary" for="lang1">DE</label>
 
-                    <input type="radio" class="btn-check lang-select" name="btnradio" id="lang2" autocomplete="off" aria-label="en">
-                    <label class="btn btn-outline-primary" for="lang2">EN</label>
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang2" autocomplete="off" aria-label="en">
+                        <label class="btn btn-outline-primary" for="lang2">EN</label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -375,32 +377,12 @@
             </div>
         </div>
     </section>
-
-    <section class="intro" id="misc">
-        <div class="mask">
-            <div class="container h-100 d-flex justify-content-center align-items-center">
-                <div class="py-5">
-
-                    <div class="translate">
-                        <h2 class="title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
-                            data-wow-delay="0.3s">
-                            <strong data-i18n="nav.page3"></strong>
-                        </h2>
-                        <hr class="hr-short-c">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </main>
 
 <footer class="page-footer font-small p-4">
     <!-- Legal -->
     <div class="footer-copyright text-end">
-        <a href="impressum.html">Impressum</a>
-    </div>
-    <div class="footer-copyright text-end">
-        <a href="dse.html">Datenschutz</a>
+        <a href="dse.html">Impressum & Datenschutz</a>
     </div>
     <div class="footer-copyright text-end py-3">
         © 2024 Copyright: Lukas Inschlag
