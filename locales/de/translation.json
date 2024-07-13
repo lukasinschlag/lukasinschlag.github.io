@@ -48,6 +48,7 @@
   },
 
   "project": {
+    "titel": "Privates Portfolio",
     "title1": "Task Custos",
     "title2": "Simple Schedule",
     "title3": "Mobile Sales App",
@@ -57,6 +58,23 @@
     "btn1":"Mehr Informationen",
     "btn2":"Mehr Informationen",
     "btn3":"Bachelorarbeit"
+  },
+
+  "contact": {
+    "name": "Name (Pflicht)",
+    "name-p": "Ihr Name",
+    "mail": "E-Mail-Adresse (Pflicht)",
+    "mail-p": "Ihre E-Mail-Adresse",
+    "phone": "Telefonnummer (Optional)",
+    "phone-p": "Ihre Telefonnummer",
+    "subject": "Betreff (Pflicht)",
+    "subject-p": "Betreff",
+    "message": "Nachricht (Pflicht)",
+    "message-p": "Ihre Nachricht",
+    "dp": "Datenschutz (Pflicht)",
+    "dpt": "Ich bin damit einverstanden, dass meine Angaben aus diesem Kontaktformular zur Bearbeitung meiner Anfrage erhoben und verarbeitet werden. Diese Einwilligung kann ich jederzeit per E-Mail an contact.lukas.inschlag@gmail.com widerrufen. Weitere Informationen zum Umgang mit Nutzerdaten finde ich in der Datenschutzerklärung.",
+    "agree": "You must agree before submitting.",
+    "send": "Absenden"
   },
 
   "misc": {
