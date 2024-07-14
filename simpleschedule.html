@@ -8,7 +8,9 @@
     <title>Lukas Inschlag</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="css/custom_bootstrap.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
@@ -31,31 +33,42 @@
 
 <body>
 
-<header style="height: fit-content">
+<header>
     <!--
     Navbar
     -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
-        <div class="container">
-            <a class="navbar-brand font-weight-bold title" href="#">About: Simple Schedule</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                    aria-controls="navbarToggler"
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold title" href="#">
+                <img src="img/svg/logo.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                inschlag.consulting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mr-auto smooth-scroll translate">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto smooth-scroll translate">
                     <li class="nav-item">
-                        <a class="nav-link title" href="index.html" data-offset="90" data-i18n="nav2.page1"></a>
+                        <a class="nav-link title" href="index.html#erp" data-offset="90" data-i18n="nav.page1"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#s1" data-offset="90" data-i18n="nav2.page2"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link title" href="#s2" data-offset="90" data-i18n="nav2.page3"></a>
+                        <a class="nav-link title" href="#" data-offset="90" data-i18n="nav.page2"></a>
                     </li>
                 </ul>
+                <div class="hstack gap-3">
+                    <a href="mailto:contact.lukas.inschlag@gmail.com" class="btn btn-primary icon translate"
+                       role="button" title="E-Mail" data-i18n="nav.contact">
+                    </a>
+                    <div class="btn-group" role="group" aria-label="Language toggle group">
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang1" autocomplete="off" checked aria-label="de">
+                        <label class="btn btn-outline-primary" for="lang1">DE</label>
+
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang2" autocomplete="off" aria-label="en">
+                        <label class="btn btn-outline-primary" for="lang2">EN</label>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -77,10 +90,10 @@
 
                     <div class="container h-100 d-flex justify-content-center align-items-center">
                         <div class="row flex-center mt-3">
-                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left d-flex align-items-center">
 
                                 <div class="black-text translate">
-                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
                                         data-wow-delay="0.3s">
                                         <strong data-i18n="s1.app"></strong>
                                     </h3>
@@ -104,10 +117,10 @@
                                 <img src="img/png/simp_process.png" alt="" class="img-fluid">
                             </div>
 
-                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left d-flex align-items-center">
 
                                 <div class="black-text translate">
-                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
                                         data-wow-delay="0.3s">
                                         <strong data-i18n="s1.pt_title"></strong>
                                     </h3>
@@ -125,10 +138,10 @@
                     <div class="container h-100 d-flex justify-content-center align-items-center">
                         <div class="row flex-center mt-3">
 
-                            <div class="col-md-12 col-lg-12 text-center text-md-left margins">
+                            <div class="col-md-12 col-lg-12 text-center text-md-left d-flex align-items-center">
 
                                 <div class="black-text translate">
-                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
                                         data-wow-delay="0.3s">
                                         <strong data-i18n="s1.rs_title"></strong>
                                     </h3>
@@ -140,7 +153,7 @@
                                     </p>
                                     <p class="black-text wow fadeIn mb-2" data-wow-delay="0.3s"
                                        data-i18n="s1.rs_desc2"></p>
-                                    <a href="https://www.google.com/design/spec/components/cards.html">Reference: card views</a>
+                                    <a href="https://m1.material.io/components/cards.html">Reference: card views</a>
                                     <p class="black-text wow fadeIn mt-3" data-wow-delay="0.3s"
                                        data-i18n="s1.rs_desc2a"></p>
                                 </div>
@@ -160,10 +173,10 @@
                                 <img src="img/png/recent_cards.png" alt="" class="img-fluid">
                             </div>
 
-                            <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left d-flex align-items-center">
 
                                 <div class="black-text translate">
-                                    <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
                                         data-wow-delay="0.3s">
                                         <strong data-i18n="s1.c_title"></strong>
                                     </h3>
@@ -192,7 +205,7 @@
                     <div class="container h-100 justify-content-center align-items-center">
                         <div class="row mt-3">
                             <div class="black-text translate">
-                                <h3 class="display-5 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
                                     data-wow-delay="0.3s">
                                     <strong data-i18n="s1.sc_title"></strong>
                                 </h3>
@@ -233,14 +246,98 @@
             </div>
         </div>
     </section>
+
+    <section class="intro mt-5" id="s2">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="py-5">
+
+                    <div class="translate">
+                        <h2 class="title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                            data-wow-delay="0.3s">
+                            <strong data-i18n="nav2.page3"></strong>
+                        </h2>
+                        <hr class="hr-short-c">
+                    </div>
+
+                    <div class="container h-100 d-flex justify-content-center align-items-center">
+                        <div class="row flex-center mt-3">
+                            <div class="col-md-12 col-lg-6 text-center text-md-left d-flex align-items-center">
+
+                                <div class="black-text translate">
+                                    <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                        data-wow-delay="0.3s">
+                                        <strong data-i18n="s2.app"></strong>
+                                    </h3>
+                                    <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                    <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                       data-i18n="s2.desc"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                                <img src="img/png/simpleschedule_web.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro" id="misc2">
+        <div class="mask">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="py-5">
+
+                    <div class="container h-100 justify-content-center align-items-center">
+                        <div class="row mt-3">
+                            <div class="black-text translate">
+                                <h3 class="display-7 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn"
+                                    data-wow-delay="0.3s">
+                                    <strong data-i18n="s2.sc_title"></strong>
+                                </h3>
+                                <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                <p class="black-text wow fadeIn" data-wow-delay="0.3s"
+                                   data-i18n="s2.sc_desc"></p>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="gallery" id="gallery2">
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc1.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc4.png"
+                                         alt="Card image cap">
+                                </div>
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc2.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc5.png"
+                                         alt="Card image cap">
+                                </div>
+                                <div class="gallery-col">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc3.png"
+                                         alt="Card image cap">
+                                    <img class="mb-3 pics animation" src="img/png/v2sc6.png"
+                                         alt="Card image cap">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
-<footer class="page-footer font-small pt-4">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        © 2023 Copyright: Lukas Inschlag
+<footer class="page-footer font-small p-4">
+    <!-- Legal -->
+    <div class="footer-copyright text-end">
+        <a href="dse.html">Impressum & Datenschutz</a>
     </div>
-    <!-- Copyright -->
+    <div class="footer-copyright text-end py-3">
+        © 2024 Copyright: Lukas Inschlag
+    </div>
 </footer>
 
 <!-- SCRIPTS -->

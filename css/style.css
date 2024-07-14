@@ -2,8 +2,10 @@
 .translate{}
 
 body {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
-    font-family: 'Karla', sans-serif;
+    font-style: normal;
 }
 
 html,
@@ -229,11 +231,11 @@ footer.page-footer .footer-copyright {
 .navbar {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     background: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .font-weight-bold {
-    font-weight: 700 !important;
+    font-weight: 500 !important;
 }
 
 .page-footer {

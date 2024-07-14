@@ -8,7 +8,9 @@
     <title>Lukas Inschlag</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="css/custom_bootstrap.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
@@ -31,25 +33,42 @@
 
 <body>
 
-<header style="height: fit-content">
+<header>
     <!--
     Navbar
     -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
-        <div class="container">
-            <a class="navbar-brand font-weight-bold title" href="#">About: Task Custos</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                    aria-controls="navbarToggler"
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold title" href="#">
+                <img src="img/svg/logo.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                inschlag.consulting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mr-auto smooth-scroll translate">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto smooth-scroll translate">
                     <li class="nav-item">
-                        <a class="nav-link title" href="index.html" data-offset="90" data-i18n="nav3.page1"></a>
+                        <a class="nav-link title" href="index.html#erp" data-offset="90" data-i18n="nav.page1"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#" data-offset="90" data-i18n="nav.page2"></a>
                     </li>
                 </ul>
+                <div class="hstack gap-3">
+                    <a href="mailto:contact.lukas.inschlag@gmail.com" class="btn btn-primary icon translate"
+                       role="button" title="E-Mail" data-i18n="nav.contact">
+                    </a>
+                    <div class="btn-group" role="group" aria-label="Language toggle group">
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang1" autocomplete="off" checked aria-label="de">
+                        <label class="btn btn-outline-primary" for="lang1">DE</label>
+
+                        <input type="radio" class="btn-check lang-select" name="btnradio" id="lang2" autocomplete="off" aria-label="en">
+                        <label class="btn btn-outline-primary" for="lang2">EN</label>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -135,12 +154,14 @@
     </section>
 </main>
 
-<footer class="page-footer font-small pt-4">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        © 2023 Copyright: Lukas Inschlag
+<footer class="page-footer font-small p-4">
+    <!-- Legal -->
+    <div class="footer-copyright text-end">
+        <a href="dse.html">Impressum & Datenschutz</a>
     </div>
-    <!-- Copyright -->
+    <div class="footer-copyright text-end py-3">
+        © 2024 Copyright: Lukas Inschlag
+    </div>
 </footer>
 
 <!-- SCRIPTS -->
